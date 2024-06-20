@@ -20,6 +20,7 @@ import br.com.techchallenge.fiap.neighborfood.application.core.usecase.pagamento
 import br.com.techchallenge.fiap.neighborfood.application.core.usecase.pedido.PedidoUseCaseImpl;
 import br.com.techchallenge.fiap.neighborfood.application.core.usecase.produto.ProdutoUseCaseImpl;
 import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.*;
+import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.NotificationUseCasePort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.outbound.LoginUseCaseAdapterPort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.outbound.NotificationUseCaseAdapterPort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.outbound.PedidoUseCaseAdapterPort;

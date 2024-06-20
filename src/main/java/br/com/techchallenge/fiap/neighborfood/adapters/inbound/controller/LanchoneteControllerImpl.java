@@ -13,6 +13,7 @@ import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.respon
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Mimo;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Pagamento;
 import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.*;
+import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.NotificationUseCasePort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 

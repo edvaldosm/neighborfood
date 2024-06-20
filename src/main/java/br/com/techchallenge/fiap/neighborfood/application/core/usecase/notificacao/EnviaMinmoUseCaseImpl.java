@@ -6,23 +6,24 @@ package br.com.techchallenge.fiap.neighborfood.application.core.usecase.notifica
 
 import br.com.techchallenge.fiap.neighborfood.adapters.outbound.postgres.entities.cliente.ClienteEntity;
 import br.com.techchallenge.fiap.neighborfood.adapters.outbound.postgres.repository.ClienteRepository;
+import br.com.techchallenge.fiap.neighborfood.application.core.domain.Mimo;
+import br.com.techchallenge.fiap.neighborfood.application.core.domain.Notificacao;
+import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.EnviaMimosInboundPort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.NotificationUseCasePort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.outbound.NotificationUseCaseAdapterPort;
 import br.com.techchallenge.fiap.neighborfood.domain.dto.MimoDTO;
-import br.com.techchallenge.fiap.neighborfood.application.core.domain.Mimo;
-import br.com.techchallenge.fiap.neighborfood.application.core.domain.Notificacao;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Optional;
 import java.util.Random;
 
-public class NotificacaoUseCaseImpl implements NotificationUseCasePort {
+public class EnviaMinmoUseCaseImpl implements EnviaMimosInboundPort {
 
     private NotificationUseCaseAdapterPort notificacaoAdapterPort;
     private ClienteRepository clienteRepository;
 
-    public NotificacaoUseCaseImpl(NotificationUseCaseAdapterPort notificacaoAdapterPort, ClienteRepository clienteRepository) {
+    public EnviaMinmoUseCaseImpl(NotificationUseCaseAdapterPort notificacaoAdapterPort, ClienteRepository clienteRepository) {
         this.notificacaoAdapterPort = notificacaoAdapterPort;
         this.clienteRepository = clienteRepository;
     }
@@ -47,8 +48,4 @@ public class NotificacaoUseCaseImpl implements NotificationUseCasePort {
         return mimoDTO;
     }
 
-    @Override
-    public Notificacao notificaExecute(Mimo mimoRequest) {
-        return null;
-    }
 }
