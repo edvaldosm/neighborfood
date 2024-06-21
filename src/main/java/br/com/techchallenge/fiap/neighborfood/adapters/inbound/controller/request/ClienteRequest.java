@@ -4,7 +4,8 @@
 
 package br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request;
 
-import br.com.techchallenge.fiap.neighborfood.domain.dto.ClienteRequestDTO;
+
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.ClienteRequestDTO;
 
 public class ClienteRequest {
 

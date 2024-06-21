@@ -4,8 +4,9 @@
 
 package br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request;
 
-import br.com.techchallenge.fiap.neighborfood.domain.dto.PedidoRequestDTO;
-import br.com.techchallenge.fiap.neighborfood.domain.dto.ProdutoDTO;
+
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.PedidoRequestDTO;
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.ProdutoDTO;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Item;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Produto;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.enums.Categoria;

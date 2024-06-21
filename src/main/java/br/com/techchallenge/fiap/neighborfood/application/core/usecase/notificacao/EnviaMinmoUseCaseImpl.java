@@ -4,14 +4,12 @@
 
 package br.com.techchallenge.fiap.neighborfood.application.core.usecase.notificacao;
 
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.MimoDTO;
 import br.com.techchallenge.fiap.neighborfood.adapters.outbound.postgres.entities.cliente.ClienteEntity;
 import br.com.techchallenge.fiap.neighborfood.adapters.outbound.postgres.repository.ClienteRepository;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Mimo;
-import br.com.techchallenge.fiap.neighborfood.application.core.domain.Notificacao;
 import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.EnviaMimosInboundPort;
-import br.com.techchallenge.fiap.neighborfood.application.ports.inbound.notificacao.NotificationUseCasePort;
 import br.com.techchallenge.fiap.neighborfood.application.ports.outbound.NotificationUseCaseAdapterPort;
-import br.com.techchallenge.fiap.neighborfood.domain.dto.MimoDTO;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

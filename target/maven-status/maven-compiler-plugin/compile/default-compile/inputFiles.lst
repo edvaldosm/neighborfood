@@ -1,84 +1,88 @@
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\PedidoUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\inbound\LanchoneteControllerImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\ProdutoUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\ClienteRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\PedidoRequestDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\inbound\request\PedidoRequest.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\AdmRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Cliente.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\NeighborfoodApplication.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\PagamentoUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\NotificacaoUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\ProdutoEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Pagamento.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\MimoRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\ProdutoAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\UserAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Admin.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\LoginUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\PedidoEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\AdminUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\AdminAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\acompanhachain\anemic\AcompanhamentoChainProntoImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Mimo.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\AcompanhamentoUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\enums\Status.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\LoginAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\ProdutoDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\LoginUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\inbound\request\ClienteRequest.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\LoginUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\PagamentoAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Produto.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\acompanhachain\anemic\AcompanhamentoChainFinalizadoImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\MimoRequestDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\_generated_sources_swagger\NeighborfoodApi.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exception\BeanConfig.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Item.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\PedidoRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\PagamentoUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\PagamentoRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\AcompanhamentoUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\MimoDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\inbound\request\AdminRequest.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\ItemPedido.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\StatusPedidoDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\ItemEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\MimoEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\inbound\response\AcompanhamentoResponse.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\AdminUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\AcompanhamentoPedidoAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\AcompanhamentoUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\_generated_sources_swagger\ApiUtil.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\ItensRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\NotificationUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\PagamentoUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\acompanhachain\AcompanhamentoChain.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\PagamentoDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\PedidoAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\ClienteRequestDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\NotificacaoAdapter.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\PedidoUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\PagamentoEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exception\ClienteException.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Pedido.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\EstoqueEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\ProdutoRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\Notificacao.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\PedidoUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\AdminRequestDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\jpa\NotificacaoRepository.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exception\PedidoException.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\AdmUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\ProdutoUseCaseImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\ClienteEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\outbound\ProdutoUseCaseAdapterPort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exception\AdminException.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\acompanhachain\anemic\AcompanhamentoChainPreparacaoImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\NotificacaoEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\ports\inbound\NotificationUseCasePort.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\model\enums\Categoria.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\usecase\acompanhachain\anemic\AcompanhamentoChainRecebidoImpl.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\CategoriaDTO.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\java\br\com\techchallenge\fiap\neighborfood\adapters\outbound\repository\entities\AdminEntity.java
-C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\domain\dto\AcompanhamentoResponseDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/PedidoRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/AcompanhamentoUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/ItensRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/MimoRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Item.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/config/BeanConfig.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/PagamentoUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Pedido.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/config/exception/PedidoException.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Cliente.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/LoginUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/AdminRequestDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/admin/AdmUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Notificacao.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhachain/anemic/AcompanhamentoChainPreparacaoImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/notificacao/NotificationUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/PedidoUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Pagamento.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhachain/anemic/AcompanhamentoChainFinalizadoImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/NotificacaoAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/notificacao/NotificaInboundPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/request/ClienteRequest.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/NeighborfoodApplication.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/produto/ProdutoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/LoginAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/notificacao/EnviaMimosInboundPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/config/exception/ClienteException.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/api/NeighborfoodApi.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/NotificationUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/AdminUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/AdminAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/AdmRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/login/LoginUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/PagamentoDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/pedido/PagamentoEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/CategoriaDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/StatusPedidoDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/ItemPedido.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/response/AcompanhamentoResponse.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhamento/AcompanhamentoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/pedido/NotificacaoEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/ProdutoRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/AcompanhamentoPedidoAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Admin.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/pedido/PedidoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/request/PedidoRequest.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Mimo.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/enums/Status.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/pagamento/PagamentoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/AcompanhamentoResponseDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/Produto.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/pedido/MimoEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/ProdutoAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/notificacao/EnviaMinmoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/request/AdminRequest.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/ProdutoUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/domain/enums/Categoria.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/admin/AdminEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/UserAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/ClienteRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/notificacao/NotificacaoUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/notificacao/NotificaUseCaseImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/ProdutoUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/MimoRequestDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/ClienteRequestDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/PedidoRequestDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhachain/anemic/AcompanhamentoChainProntoImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/estoque/PedidoEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/config/exception/AdminException.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/pedido/ProdutoEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/api/ApiUtil.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/NotificacaoRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhachain/anemic/AcompanhamentoChainRecebidoImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/LanchoneteControllerImpl.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/cliente/ClienteEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/PagamentoAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/PedidoUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/ProdutoDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/inbound/PagamentoUseCasePort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/AdminUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/inbound/controller/dto/MimoDTO.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/estoque/EstoqueEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/entities/pedido/ItemEntity.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/AcompanhamentoUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/repository/PagamentoRepository.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/adapters/outbound/postgres/adaptes/PedidoAdapter.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/ports/outbound/LoginUseCaseAdapterPort.java
+/home/esmatos/Projetos/Miguel/neighborfood/src/main/java/br/com/techchallenge/fiap/neighborfood/application/core/usecase/acompanhachain/AcompanhamentoChain.java

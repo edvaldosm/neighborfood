@@ -5,7 +5,8 @@
 package br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller;
 
 
-import _generated_sources_swagger.NeighborfoodApi;
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.api.NeighborfoodApi;
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.*;
 import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request.AdminRequest;
 import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request.ClienteRequest;
 import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request.PedidoRequest;
@@ -50,7 +51,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or request inválida (status code 400)
      */
     @Override
-    public ResponseEntity<Object> login(br.com.techchallenge.fiap.neighborfood.domain.dto.ClienteRequestDTO clienteRequestDTO) {
+    public ResponseEntity<Object> login(ClienteRequestDTO clienteRequestDTO) {
         return ResponseEntity.ok(
                 loginUseCasePort.loginExecute(new ClienteRequest().dtoFromDomain(clienteRequestDTO)));
     }
@@ -64,7 +65,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or request inválida (status code 400)
      */
     @Override
-    public ResponseEntity<Object> loginAdm(br.com.techchallenge.fiap.neighborfood.domain.dto.AdminRequestDTO adminRequestDTO) {
+    public ResponseEntity<Object> loginAdm(AdminRequestDTO adminRequestDTO) {
         return ResponseEntity.ok(
                 loginUseCasePort.loginAdmExecute(new AdminRequest().dtoFromDomain(adminRequestDTO)));
     }
@@ -78,7 +79,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or request inválida (status code 400)
      */
     @Override
-    public ResponseEntity<Object> register(br.com.techchallenge.fiap.neighborfood.domain.dto.ClienteRequestDTO clienteRequestDTO) {
+    public ResponseEntity<Object> register(ClienteRequestDTO clienteRequestDTO) {
         return ResponseEntity.ok(
                 loginUseCasePort.cadastroExecute(new ClienteRequest().dtoFromDomain(clienteRequestDTO)));
     }
@@ -92,7 +93,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or request inválida (status code 400)
      */
     @Override
-    public ResponseEntity<Object> registerAdm(br.com.techchallenge.fiap.neighborfood.domain.dto.AdminRequestDTO adminRequestDTO) {
+    public ResponseEntity<Object> registerAdm(AdminRequestDTO adminRequestDTO) {
         return ResponseEntity.ok(
                 loginUseCasePort.cadastroAdmExecute(new AdminRequest().dtoFromDomain(adminRequestDTO)));
     }
@@ -126,7 +127,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
     }
 
     @Override
-    public ResponseEntity<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO> order(br.com.techchallenge.fiap.neighborfood.domain.dto.PedidoRequestDTO pedidoRequest) {
+    public ResponseEntity<AcompanhamentoResponseDTO> order(PedidoRequestDTO pedidoRequest) {
         AcompanhamentoResponse response =
                 pedidoUseCasePort.pedidoExecute(new PedidoRequest().dtoFromRequest(pedidoRequest));
         return ResponseEntity.ok(response.pedidoFromResponse());
@@ -142,7 +143,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or Pedido não encontrado (status code 404)
      */
     @Override
-    public ResponseEntity<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO> payment(br.com.techchallenge.fiap.neighborfood.domain.dto.PagamentoDTO pagamentoDTO) {
+    public ResponseEntity<AcompanhamentoResponseDTO> payment(PagamentoDTO pagamentoDTO) {
         Pagamento pagamento = new Pagamento();
         pagamento.setIdPedido(pagamentoDTO.getIdPedido());
         pagamento.setPagou(pagamentoDTO.getPagou());
@@ -161,7 +162,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or Pedido não encontrado (status code 404)
      */
     @Override
-    public ResponseEntity<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO> findOrderByIdOrder(Long idPedido) {
+    public ResponseEntity<AcompanhamentoResponseDTO> findOrderByIdOrder(Long idPedido) {
         AcompanhamentoResponse orderStatusExecute = acompanhamentoUseCasePort.getOrderStatusExecute(idPedido);
         return ResponseEntity.ok(orderStatusExecute.pedidoFromResponse());
     }
@@ -176,8 +177,8 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or Mimo não disponível (status code 404)
      */
     @Override
-    public ResponseEntity<List<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO>> listOrders(Long idAdmin) {
-        List<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO> statusDosPedidos = new ArrayList<>();
+    public ResponseEntity<List<AcompanhamentoResponseDTO>> listOrders(Long idAdmin) {
+        List<AcompanhamentoResponseDTO> statusDosPedidos = new ArrayList<>();
         List<AcompanhamentoResponse> acompanhamentoResponses = adminUseCasePort.listaPedidosExecute(idAdmin);
 
         acompanhamentoResponses.forEach(resp ->{
@@ -196,7 +197,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or Mimo não disponível (status code 404)
      */
     @Override
-    public ResponseEntity<br.com.techchallenge.fiap.neighborfood.domain.dto.MimoDTO> sendBonus(br.com.techchallenge.fiap.neighborfood.domain.dto.MimoRequestDTO mimoRequestDTO) {
+    public ResponseEntity<MimoDTO> sendBonus(MimoRequestDTO mimoRequestDTO) {
         Mimo mimo = new Mimo();
         mimo.setIdUsuario(mimoRequestDTO.getIdCliente());
         return ResponseEntity.ok(notificationUseCasePort.enviaMimosExecute(mimo));
@@ -211,7 +212,7 @@ public class LanchoneteControllerImpl implements NeighborfoodApi {
      * or request inválida (status code 400)
      */
     @Override
-    public ResponseEntity<br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO> updateOrder(br.com.techchallenge.fiap.neighborfood.domain.dto.PedidoRequestDTO pedidoDTO) {
+    public ResponseEntity<AcompanhamentoResponseDTO> updateOrder(PedidoRequestDTO pedidoDTO) {
         AcompanhamentoResponse response = pedidoUseCasePort.atualizarPedidoExecute(new PedidoRequest().dtoFromRequest(pedidoDTO));
         return ResponseEntity.ok(response.pedidoFromResponse());
     }

@@ -4,6 +4,7 @@
 
 package br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.response;
 
+import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto.*;
 import br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.request.PedidoRequest;
 import br.com.techchallenge.fiap.neighborfood.adapters.outbound.postgres.entities.estoque.PedidoEntity;
 import br.com.techchallenge.fiap.neighborfood.application.core.domain.Item;
@@ -31,23 +32,23 @@ public class AcompanhamentoResponse {
         this.total = total;
     }
 
-    public br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO pedidoFromResponse() {
-        br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO response = new br.com.techchallenge.fiap.neighborfood.domain.dto.AcompanhamentoResponseDTO();
-        br.com.techchallenge.fiap.neighborfood.domain.dto.PedidoRequestDTO requestDTO = new br.com.techchallenge.fiap.neighborfood.domain.dto.PedidoRequestDTO();
+    public AcompanhamentoResponseDTO  pedidoFromResponse() {
+        AcompanhamentoResponseDTO response = new AcompanhamentoResponseDTO();
+        PedidoRequestDTO requestDTO = new PedidoRequestDTO();
         requestDTO.setIdCliente(this.pedidoRequest.getIdCliente());
-        List<br.com.techchallenge.fiap.neighborfood.domain.dto.ItemPedido> itemPedidoList = new ArrayList<>();
+        List<ItemPedido> itemPedidoList = new ArrayList<>();
         this.pedidoRequest.getItensPedido().forEach(item -> {
 
-            br.com.techchallenge.fiap.neighborfood.domain.dto.ItemPedido itemPedido = new br.com.techchallenge.fiap.neighborfood.domain.dto.ItemPedido();
+            ItemPedido itemPedido = new ItemPedido();
             itemPedido.setId(item.getId());
             itemPedido.setIdPedido(item.getIdPedido());
 
-            br.com.techchallenge.fiap.neighborfood.domain.dto.ProdutoDTO dto = new br.com.techchallenge.fiap.neighborfood.domain.dto.ProdutoDTO();
+            ProdutoDTO dto = new ProdutoDTO();
             dto.setId(item.getId());
             dto.setNome(item.getNome());
             dto.setDescricao(item.getDescricao());
             dto.setPreco(item.getPreco());
-            dto.setCategoria(br.com.techchallenge.fiap.neighborfood.domain.dto.CategoriaDTO.valueOf(item.getCategoria().toString()));
+            dto.setCategoria(CategoriaDTO.valueOf(item.getCategoria().toString()));
             dto.setImg(item.getImg());
             itemPedido.setProduto(dto);
             itemPedidoList.add(itemPedido);
@@ -55,7 +56,7 @@ public class AcompanhamentoResponse {
         requestDTO.setItensPedido(itemPedidoList);
         response.setPedido(requestDTO);
         response.getPedido().setId(this.pedidoRequest.getId());
-        response.setStatus(br.com.techchallenge.fiap.neighborfood.domain.dto.StatusPedidoDTO.valueOf(this.status.toString()));
+        response.setStatus(StatusPedidoDTO.valueOf(this.status.toString()));
         response.setTotal(this.total);
         return response;
     }
@@ -137,10 +138,3 @@ public class AcompanhamentoResponse {
         return request;
     }
 }
-
-
-
-
-
-
-

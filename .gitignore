@@ -25,3 +25,5 @@ replay_pid*
 
 # Remove o .idea do Intellij
 .idea
+
+target

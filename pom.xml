@@ -109,11 +109,12 @@
                             <inputSpec>
                                 ${project.basedir}/src/main/resources/api/resource.yml
                             </inputSpec>
+
                             <generatorName>spring</generatorName>
-                            <modelPackage>br.com.techchallenge.fiap.neighborfood.domain.dto</modelPackage>
-                            <apiPackage>$generated-sources/swagger</apiPackage>
+                            <modelPackage>br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.dto</modelPackage>
+                            <apiPackage>br.com.techchallenge.fiap.neighborfood.adapters.inbound.controller.api</apiPackage>
                             <configOptions>
-                                <sourceFolder>src/main/java/</sourceFolder>
+                                <sourceFolder>src/main/java</sourceFolder>
                                 <delegatePattern>false</delegatePattern>
                                 <interfaceOnly>true</interfaceOnly>
                                 <useJakartaEe>true</useJakartaEe>
